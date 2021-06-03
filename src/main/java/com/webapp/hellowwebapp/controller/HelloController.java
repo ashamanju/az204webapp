@@ -14,7 +14,7 @@ public class HelloController {
     Logger logger = Logger.getLogger(HelloController.class.getName());
     @GetMapping(path="/hello")
     public String hello(){
-        logger.log(Level.WARNING,"Inside Hello");
+        logger.log(Level.WARNING,"Inside Hello1");
         return ("hello");
     }
 }
