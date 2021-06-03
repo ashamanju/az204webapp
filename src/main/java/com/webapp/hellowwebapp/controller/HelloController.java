@@ -15,6 +15,6 @@ public class HelloController {
     @GetMapping(path="/hello")
     public String hello(){
         logger.log(Level.WARNING,"Inside Hello1 to check git integration");
-        return ("hello webapp from GIT");
+        return ("hello webapp from GIT after change");
     }
 }
