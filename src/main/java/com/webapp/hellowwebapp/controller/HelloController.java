@@ -15,6 +15,6 @@ public class HelloController {
     @GetMapping(path="/hello")
     public String hello(){
         logger.log(Level.WARNING,"Inside Hello1");
-        return ("hello");
+        return ("hello webapp from GIT");
     }
 }
